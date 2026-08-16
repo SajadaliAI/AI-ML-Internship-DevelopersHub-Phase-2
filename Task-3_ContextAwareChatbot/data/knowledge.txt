@@ -1,0 +1,208 @@
+ARTIFICIAL INTELLIGENCE
+
+Artificial Intelligence (AI) is a field of computer science that focuses on creating systems that can perform tasks that normally require human intelligence, such as understanding language, recognizing patterns, making decisions, and solving problems.
+
+Machine Learning (ML) is a subset of Artificial Intelligence. Machine Learning allows computers to learn patterns from data and make predictions or decisions without being explicitly programmed for every task.
+
+Supervised Learning uses labeled data to train a machine learning model. Common supervised learning algorithms include Linear Regression, Logistic Regression, Decision Trees, Random Forest, and Support Vector Machines.
+
+Unsupervised Learning works with unlabeled data. Common techniques include clustering and dimensionality reduction.
+
+Deep Learning is a subset of Machine Learning that uses neural networks with multiple layers to learn complex patterns from large amounts of data.
+
+A neural network is a machine learning model inspired by the structure of the human brain. It consists of interconnected layers of neurons that process information.
+
+
+NATURAL LANGUAGE PROCESSING
+
+Natural Language Processing (NLP) is a field of Artificial Intelligence that enables computers to understand, process, and generate human language.
+
+NLP tasks include text classification, sentiment analysis, named entity recognition, machine translation, summarization, question answering, and text generation.
+
+Tokenization is the process of splitting text into smaller units called tokens. Tokens can be words, subwords, or characters depending on the tokenizer.
+
+Transformers are neural network architectures that use attention mechanisms to process relationships between tokens in text. Transformers are widely used in modern NLP systems.
+
+
+LARGE LANGUAGE MODELS
+
+A Large Language Model (LLM) is an AI model trained on large amounts of text data to understand and generate human-like language.
+
+GPT is a family of generative language models designed to generate text based on an input prompt.
+
+FLAN-T5 is a sequence-to-sequence transformer model from Google that is instruction-tuned for various natural language processing tasks.
+
+BERT is a transformer-based model developed for understanding language and is commonly used for tasks such as classification and question answering.
+
+
+GENERATIVE AI
+
+Generative AI refers to AI systems that can generate new content such as text, images, audio, video, or code.
+
+A prompt is an instruction or input provided to an AI model to guide its response.
+
+Prompt engineering is the process of designing effective prompts to obtain useful and reliable outputs from language models.
+
+
+EMBEDDINGS
+
+An embedding is a numerical vector representation of text or other data.
+
+Embedding models convert text into numerical vectors that capture semantic meaning.
+
+Similar texts generally have similar embedding vectors, which allows systems to perform semantic similarity searches.
+
+Sentence Transformers are models that generate embeddings for sentences and paragraphs and are commonly used for semantic search and retrieval.
+
+
+HUGGING FACE
+
+Hugging Face is an AI and machine learning platform that provides open-source models, datasets, and tools.
+
+The Hugging Face Transformers library provides pretrained models for natural language processing, computer vision, audio, and other machine learning tasks.
+
+Hugging Face Hub is a platform where developers can find, download, share, and use machine learning models and datasets.
+
+Transformers can be used for tasks such as text generation, text classification, question answering, summarization, translation, and feature extraction.
+
+Hugging Face Pipeline is a high-level API that makes it easier to use pretrained models for common machine learning tasks.
+
+The sentence-transformers library can be used with Hugging Face models to generate text embeddings.
+
+
+RAG
+
+RAG stands for Retrieval-Augmented Generation.
+
+RAG combines information retrieval with text generation. Instead of relying only on information stored in an LLM, a RAG system retrieves relevant information from an external knowledge base and provides it to the language model.
+
+A typical RAG pipeline contains document loading, text splitting, embedding generation, vector storage, similarity search, retrieval, and answer generation.
+
+RAG can help an AI application answer questions using private or domain-specific documents.
+
+The main advantage of RAG is that the knowledge base can be updated without retraining the entire language model.
+
+
+VECTOR DATABASES
+
+A vector database stores numerical vector representations called embeddings.
+
+Vector databases allow applications to perform similarity searches between embeddings.
+
+FAISS is a library developed by Meta AI for efficient similarity search and clustering of dense vectors.
+
+ChromaDB is a vector database commonly used in AI and RAG applications for storing and retrieving embeddings.
+
+Similarity search retrieves documents whose embeddings are most similar to the embedding of the user's query.
+
+
+LANGCHAIN
+
+LangChain is a framework for building applications powered by large language models.
+
+LangChain provides components for prompts, models, document loaders, text splitters, embeddings, vector stores, retrievers, memory, chains, and agents.
+
+A Document Loader loads data from sources such as text files, PDFs, web pages, or other documents.
+
+A Text Splitter divides large documents into smaller chunks before creating embeddings.
+
+A Retriever searches a knowledge base and returns documents relevant to a user query.
+
+A chain connects multiple components together to perform a specific workflow.
+
+Conversation memory allows a chatbot to retain information from previous messages during a conversation.
+
+
+LANGGRAPH
+
+LangGraph is a framework for building stateful and controllable AI agent workflows.
+
+LangGraph represents an application as a graph containing nodes and edges.
+
+Nodes perform actions or processing steps, while edges define how execution moves between nodes.
+
+LangGraph is useful for building agentic workflows, multi-agent systems, tool-using agents, and applications that require state management.
+
+
+AI AGENTS
+
+An AI agent is an AI-powered system that can reason about a task, decide what action to take, and use tools when necessary.
+
+An agent can dynamically choose between different tools or actions based on the user's request.
+
+Tools allow AI agents to interact with external systems such as search engines, databases, APIs, calculators, or file systems.
+
+
+PYTHON
+
+Python is a high-level programming language widely used in Artificial Intelligence, Machine Learning, Data Science, and backend development.
+
+Popular Python libraries for AI and Machine Learning include NumPy, Pandas, Scikit-learn, PyTorch, TensorFlow, Transformers, LangChain, and Sentence Transformers.
+
+Pandas is commonly used for data manipulation and analysis.
+
+NumPy is commonly used for numerical computing and array operations.
+
+Scikit-learn provides many classical machine learning algorithms and evaluation tools.
+
+
+STREAMLIT
+
+Streamlit is a Python framework for quickly building interactive web applications for data science and machine learning projects.
+
+Streamlit can be used to create chat interfaces, dashboards, model demos, and AI applications without requiring extensive frontend development.
+
+
+CHATBOTS
+
+A chatbot is a software application that interacts with users through natural language.
+
+An AI chatbot can use an LLM to understand questions and generate responses.
+
+A RAG chatbot retrieves relevant information from a knowledge base before generating an answer.
+
+A context-aware chatbot uses conversation history to understand follow-up questions and maintain context.
+
+
+SEMANTIC SEARCH
+
+Semantic search finds information based on meaning rather than only matching exact keywords.
+
+Semantic search commonly uses embeddings to represent queries and documents as vectors.
+
+The query embedding is compared with document embeddings to find the most relevant information.
+
+
+FAISS
+
+FAISS stands for Facebook AI Similarity Search.
+
+FAISS is a library for efficient similarity search and clustering of dense vectors.
+
+FAISS is commonly used in RAG applications to store embeddings and retrieve relevant documents.
+
+In a RAG system, documents are converted into embeddings and stored in FAISS. When a user asks a question, the question is converted into an embedding and FAISS retrieves similar document chunks.
+
+
+CONTEXT-AWARE CHATBOT
+
+A context-aware chatbot uses previous conversation messages to understand the user's current question.
+
+ConversationBufferMemory can store previous messages in a LangChain chatbot.
+
+For example, if a user asks "What is RAG?" and then asks "What are its advantages?", the chatbot can use the previous question to understand what "its" refers to.
+
+
+RAG CHATBOT WORKFLOW
+
+The RAG chatbot workflow is:
+
+1. Load the knowledge base.
+2. Split the documents into smaller chunks.
+3. Convert document chunks into embeddings.
+4. Store the embeddings in a vector store such as FAISS.
+5. Convert the user's question into an embedding.
+6. Retrieve the most relevant document chunks.
+7. Provide the retrieved context to the language model.
+8. Generate an answer using the retrieved information.
+9. Maintain conversation history for context-aware responses.

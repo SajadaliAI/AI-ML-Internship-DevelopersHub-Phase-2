@@ -1,0 +1,106 @@
+# ================================
+# Python
+# ================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Virtual Environments
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ================================
+# Jupyter Notebook
+# ================================
+.ipynb_checkpoints/
+
+# ================================
+# Environment Variables / Secrets
+# ================================
+.env
+.env.*
+!.env.example
+
+# ================================
+# IDE / Editors
+# ================================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ================================
+# OS Files
+# ================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ================================
+# Machine Learning / Model Files
+# ================================
+*.h5
+*.hdf5
+*.keras
+*.pth
+*.pt
+*.onnx
+*.safetensors
+*.bin
+
+# ================================
+# Logs
+# ================================
+*.log
+logs/
+
+# ================================
+# Temporary / Cache Files
+# ================================
+.cache/
+*.tmp
+*.temp
+
+# ================================
+# Streamlit
+# ================================
+.streamlit/secrets.toml
+
+# ================================
+# Experiment / Training Outputs
+# ================================
+runs/
+wandb/
+mlruns/
+
+# ================================
+# Local Data / Generated Files
+# ================================
+*.pkl
+*.joblib
+
+# ================================
+# FAISS / Vector Store Generated Files
+# ================================
+*.faiss
+*.index
+
+# ================================
+# Build / Distribution
+# ================================
+build/
+dist/
+*.egg-info/
+
+# ================================
+# Testing / Coverage
+# ================================
+.pytest_cache/
+.coverage
+htmlcov/

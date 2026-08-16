@@ -1,0 +1,10 @@
+tiktoken
+faiss-cpu
+transformers==4.41.2
+langchain-huggingface==0.0.3 
+streamlit
+langchain==0.1.20
+langchain-core==0.1.53
+langchain-community==0.0.38
+langchain-huggingface==0.0.3
+pydantic==1.10.13
